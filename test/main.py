@@ -11,5 +11,5 @@ def make_csv(jobs):
     writer.writerow(list(job.values()))
   return
 
-done_csv = extract_job(extract_indeed_pages())
-make_csv(done_csv)
+done_csv1 = extract_job(extract_indeed_pages())
+make_csv(done_csv1)
